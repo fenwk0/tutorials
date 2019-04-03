@@ -1,7 +1,7 @@
-PASSWORD=changeit
+PASSWORD=munchausen_by_proxy
 KEYSTORE=keystore.jks
 HOSTNAME=localhost
-CLIENTNAME=cid
+CLIENTNAME=client
 
 # CN = Common Name
 # OU = Organization Unit
