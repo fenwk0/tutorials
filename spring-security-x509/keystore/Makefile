@@ -10,10 +10,10 @@ CLIENTNAME=cid
 # ST = State Name
 # C  = Country (2-letter Country Code)
 # E  = Email
-DNAME_CA='CN=Baeldung CA,OU=baeldung.com,O=Baeldung,L=SomeCity,ST=SomeState,C=CC'
+DNAME_CA='CN=Fenwick CA,OU=macymoo.com,O=api,L=Bournemouth,ST=Dorset,C=UK'
 # For server certificates, the Common Name (CN) must be the hostname
-DNAME_HOST='CN=$(HOSTNAME),OU=baeldung.com,O=Baeldung,L=SomeCity,ST=SomeState,C=CC'
-DNAME_CLIENT='CN=$(CLIENTNAME),OU=baeldung.com,O=Baeldung,L=SomeCity,ST=SomeState,C=CC'
+DNAME_HOST='CN=$(HOSTNAME),OU=macymoo.com,O=api,L=Bournemouth,ST=Dorset,C=UK'
+DNAME_CLIENT='CN=$(CLIENTNAME),OU=macymoo.com,O=api,L=Bournemouth,ST=Dorset,C=UK'
 TRUSTSTORE=truststore.jks
 
 all:	clean create-keystore add-host create-truststore add-client
