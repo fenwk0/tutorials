@@ -10,7 +10,9 @@ CLIENTNAME=client
 # ST = State Name
 # C  = Country (2-letter Country Code)
 # E  = Email
+
 DNAME_CA='CN=Fenwick CA,OU=macymoo.com,O=api,L=Bournemouth,ST=Dorset,C=UK'
+
 # For server certificates, the Common Name (CN) must be the hostname
 DNAME_HOST='CN=$(HOSTNAME),OU=macymoo.com,O=api,L=Bournemouth,ST=Dorset,C=UK'
 DNAME_CLIENT='CN=$(CLIENTNAME),OU=macymoo.com,O=api,L=Bournemouth,ST=Dorset,C=UK'
